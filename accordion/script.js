@@ -27,7 +27,6 @@ $('.accordionButton').on('click', function(e){
 	$accordionPanel
 		.not(':animated')
 		.slideToggle(200, function(){
-
 			// add bottom border
 			if ($accordionPanel.is(':hidden') && $parent.hasClass('lastAccordion')) {
 				$accordionButton.css("border-bottom-width", "1px");
